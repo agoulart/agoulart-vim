@@ -1,4 +1,6 @@
 # agoulart-vim
+######Replace your files, run:
+$ vim +PluginInstall
 ###This is my Vim setup.
 ###It Covers:
 
