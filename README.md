@@ -12,7 +12,6 @@ $ vim +PluginInstall
 - Monokai
 
 ## Extra
-
 - A bunch of cool stuff
-- 
+
 ![](https://raw.githubusercontent.com/agoulart/images/master/foto.png)
