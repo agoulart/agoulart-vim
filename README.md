@@ -16,5 +16,5 @@ $ vim +PluginInstall
 - NerdTree
 - Vim-surround
 - Vim-emmat
-
+- Some cool stuff
 ![](https://raw.githubusercontent.com/agoulart/images/master/foto.png)
