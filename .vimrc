@@ -34,6 +34,11 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'bling/vim-airline'
 Plugin 'mattn/emmet-vim'
 Plugin 'tpope/vim-surround'
+Plugin 'pangloss/vim-javascript'
+Plugin 'groenewege/vim-less'
+Plugin 'skammer/vim-css-color'
+Plugin 'othree/javascript-libraries-syntax.vim'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -66,12 +71,19 @@ au BufNewFile,BufRead *.py
     \ set autoindent |
     \ set fileformat=unix |
 
+" Javascript-Libraries
+let g:used_javascript_libs = 'underscore,react'
+let g:used_javascript_libs = 'underscore,jquery'
+
+
+
 
 " html, css, js indetation
 au BufNewFile,BufRead *.js,*.html,*.css
     \ set tabstop=2 |
     \ set softtabstop=2 |
     \ set shiftwidth=2 |
+
 " emmet setup
 let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
