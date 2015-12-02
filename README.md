@@ -6,15 +6,13 @@ $ vim +PluginInstall
 
 - Python
 - HTML/CSS
-- JS(not perfectly,yet)
+- JS
 
 ## Color Scheme
 - Monokai
 
 ## Extra
 
-- NerdTree
-- Vim-surround
-- Vim-emmat
-- Some cool stuff
+- A bunch of cool stuff
+- 
 ![](https://raw.githubusercontent.com/agoulart/images/master/foto.png)
